@@ -138,7 +138,7 @@ public class MetricfuComplexityYamlParserImpl implements
       // file has no methods returning empty function list
       return new ArrayList<RubyFunction>();
     }
-
+   
     RubyFunction rubyFunction = new RubyFunction();
     LOG.debug("analyzeCane: fileInfoToWorkWith - " + fileInfoToWorkWith);
     rubyFunction.setName((String) fileInfoToWorkWith.get(":method"));
